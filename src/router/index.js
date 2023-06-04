@@ -24,8 +24,13 @@ const router = createRouter({
     },
     {
       path: '/reactivity-fundamentals',
-      name: 'template',
+      name: 'reactivity',
       component: () => import('../views/ReactivityFundamentals.vue'),
+    },
+    {
+      path: '/computed-properties',
+      name: 'computed',
+      component: () => import('../views/ComputedProperties.vue'),
     },
   ],
 })
