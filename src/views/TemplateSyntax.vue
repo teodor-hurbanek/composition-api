@@ -65,7 +65,7 @@ const onSubmit = () => {
     </section>
 
     <section>
-      <h3>Dynamic Arguments</h3>
+      <h2>Dynamic Arguments</h2>
       <article>
         <p>
           It is also possible to use a JavaScript expression in a directive argument by wrapping it with square
@@ -77,7 +77,7 @@ const onSubmit = () => {
     </section>
 
     <section>
-      <h3>Modifiers</h3>
+      <h2>Modifiers</h2>
       <article>
         <p>
           Modifiers are special postfixes denoted by a dot, which indicate that a directive should be bound in some
