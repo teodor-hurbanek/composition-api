@@ -52,6 +52,31 @@ const router = createRouter({
       name: 'event',
       component: () => import('../views/EventHandling.vue'),
     },
+    {
+      path: '/input-bindings',
+      name: 'input',
+      component: () => import('../views/InputBindings.vue'),
+    },
+    {
+      path: '/lifecycle-hooks',
+      name: 'lifecycle',
+      component: () => import('../views/LifecycleHooks.vue'),
+    },
+    {
+      path: '/watchers',
+      name: 'watchers',
+      component: () => import('../views/Watchers.vue'),
+    },
+    {
+      path: '/template-refs',
+      name: 'refs',
+      component: () => import('../views/TemplateRefs.vue'),
+    },
+    {
+      path: '/components',
+      name: 'components',
+      component: () => import('../views/Components.vue'),
+    },
   ],
 })
 
